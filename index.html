@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechoTeen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">TechoTeen</a>
+        
+        <nav>
+        <a href="#home" class="active" >Home</a>
+        <a href="#about" >About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    </header>
+    
+    <section id="home">
+
+        <span>
+            <img id="Main_logo" height="100%" width="100%" src="Logo.jpg">
+</span>
+<span>
+            <h1 id="Home_heading" font-size="60%">TechoTeen</h1>
+        </span>
+        
+    </section>
+
+    <section id="about">About</section>
+
+    <section id="services">
+<div>
+        <h1>Services</h1>
+
+        <div class="tabContainer">
+            <div class="buttonContainer">
+                <button onclick="showPanel(0,'#f44336')">Tab 1</button>
+                <button onclick="showPanel(1,'#4caf50')">Tab 2</button>
+                <button onclick="showPanel(2,'#2196f3')">Tab 3</button>
+                <button onclick="showPanel(3,'#ff5722')">Tab 4</button>
+            </div>
+            <div class="tabPanel">Tab 1:Content</div>
+            <div class="tabPanel">Tab 2:Content</div>
+            <div class="tabPanel">Tab 3:Content</div>
+            <div class="tabPanel">Tab 4:Content</div>
+        </div>
+</div>    
+</section>   
+
+    <section id="portfolio">Portfolio</section>
+
+    <section id="contact">Contact</section>
+
+
+    <script src="main.js"></script>
+        
+</body>
+</html>
+ 
